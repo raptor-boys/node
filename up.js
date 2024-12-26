@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Load your service account key
-const serviceAccount = require('/storage/emulated/0/Download/test-30b8e-firebase-admins>
+const serviceAccount = require('/workspaces/empty/node/data.json>
 
 // Initialize Firebase Admin
 admin.initializeApp({
@@ -44,7 +44,7 @@ const uploadFile = async (filePath) => {
 };
 
 // Set the upload directory path
-const directoryPath = '/storage/emulated/0/firebase'; // Set your upload directory path>
+const directoryPath = '/wirkspaces/empty'; // Set your upload directory path>
 
 // Start the upload process
 uploadDirectory(directoryPath)
